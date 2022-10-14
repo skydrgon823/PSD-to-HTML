@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+}
+body{
+  font-family: "Poppins", sans-serif;
+}
+.container {
+    max-width: 1294px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container-fluid {
+    max-width: 100%;
+}
+.container {
+    max-width: 1294px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----HEADER----*/
+
+header .container-fluid {
+    border-bottom: 1px solid #f7eaf1;
+}
+header .header-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+header .search {
+    background-color: #f3f5f7;
+    width: 40%;
+    position: relative;
+    right: 5%;
+    padding: 15px 20px;
+    border-radius: 28px;
+}
+header input {
+    background-color: #f3f5f7;
+    border: none;
+    padding: 4px;
+    padding-right: 0;
+    font-size: 14px;
+    width: 90%;
+}
+header .search button {
+    background-color: #f3f5f7;
+    border: none;
+    width: 7%;
+}
+header .state {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .state .user, header .state .heart, header .state .shop-bag {
+    cursor: pointer;
+    position: relative;
+}
+header .state .tlbadge, header .state .trbadge {
+    background-color: #18327a;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: -6px;
+    right: -7px;
+}
+header .line {
+    width: 100%;
+    border-top: solid 0.1px #e7eaf1;
+    margin: 10px 0px;
+  }
+header .navbar {
+    display: flex;
+    max-width: 1294px;
+    justify-content: space-between;
+    background-color: white;
+  
+    align-items: center;
+  
+    margin-right: auto;
+    margin-left: auto;
+  }
+header .navbar a {
+    font-size: 15px;
+    color: #18327a;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+header  .phonenumber {
+    font-size: 15px;
+    color: #18327a;
+  }
+/*----main----*/
+main {
+    background-color: #f7f9fa;
+    padding-top: 113px;
+}
+
+main .headline {
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+main .headline h1 {
+    font-size: 46px;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 55px;
+}
+
+main .headline p {
+    font-size: 20px;
+    max-width: 52%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .blocks h3 {
+    font-size: 26px;
+}
+
+main .blocks h5 {
+    font-size: 20px;
+}
+
+main .blocks p {
+    font-size: 18px;
+}
+
+main .blocks .data {
+    display: flex;
+    gap: 26px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+main .industrie h3 {
+    background-image: url(./images/1-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+}
+
+main .blocks-content {
+    width: 50%;
+}
+
+main .blocks-content .blocks-subcontent {
+    padding-right: 66px;
+}
+
+main .blocks-pic {
+    width: 50%;
+}
+
+main .industrie .blocks-pic div {
+    width: 100%;
+    height: 475px;
+    background-image: url(./images/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+main .blocks .even .blocks-content {
+    padding-left: 56px;
+}
+
+main .gastronomie .blocks-pic div {
+    width: 100%;
+    height: 475px;
+    background-image: url(./images/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+main .gastronomie h3 {
+    background-image: url(./images/2-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+}
+
+
+main .offentliche h3 {
+    background-image: url(./images/3-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+}
+
+main .offentliche .blocks-pic div {
+    width: 100%;
+    height: 475px;
+    background-image: url(./images/3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+main .facility .blocks-pic div {
+    width: 100%;
+    height: 475px;
+    background-image: url(./images/4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+main .facility h3 {
+    background-image: url(./images/4-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+}
+
+main .hygiene h3 {
+    background-image: url(./images/5-icon.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 100px;
+}
+
+main .hygiene .blocks-pic div {
+    width: 100%;
+    height: 475px;
+    background-image: url(./images/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+}
+
+footer .eval-item{
+  
+    background-color: #f3f5f7; 
+    color: #18327a;
+    font-size: 20px;
+    
+    
+  }
+footer .eval-item  .paint{
+    max-width: 1294px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    
+  }
+  footer  .item{
+    width: 33%;
+      text-align: center;
+      line-height: 60px;
+      align-items: center;
+  }
+  footer .item img{
+    height: 20px;
+  }
+footer  .footertext{
+    margin-top: 40px;
+    max-width: 1294px;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    width: 100%;
+  }
+footer .logopart{
+    width:20%;
+    padding:10px 0;
+    margin-bottom: 20px;
+  }
+footer.logopart p{
+    font-size: 16px;
+  }
+footer .logopart img{
+    width: 130px;
+  }
+footer  .socialicon{
+    display: inline-block;
+  }
+  footer .socialicon p{
+    font-size:14px;
+    border-bottom:1px solid rgb(10, 132, 238);
+    
+  }
+  footer .socialicon a{
+    
+    margin-right: 10px;
+  }
+  footer .phonepart{
+    width:30%;
+    display: inline-block;
+    
+  }
+  footer  .phonepart p{
+    font-size: 18px;
+    color: #18327a;
+    font-weight: bold;
+  }
+  footer .phonepart span{
+    font-size: 28px;
+    color: #12a05c;
+  }
+  footer .phonedate{
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  footer .phonepartline{
+    border-bottom: 1px solid #b9c1d7;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 80%
+  }
+  footer .mailbox{
+    font-size: 16px;
+  }
+  footer .about{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    
+  }
+  footer .infopart{
+    width:40%;
+    
+    color: #18327a;
+  }
+  footer .infopart p{
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  footer .infopart ul{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  footer .infopart ul li{
+    padding-bottom: 11px;
+  
+  }
+  footer .infopart ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    
+  }
+ 
+  footer .accountpart{
+    width:25%;
+    padding-left: 20px;
+    color: #18327a;
+  }
+  footer .accountpart p{
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  footer .accountpart ul{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  footer  .accountpart ul li{
+    padding-bottom: 11px;
+  
+  }
+  footer  .accountpart ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    
+  }
+  
+  footer   .storepart{
+    width:20%;
+    padding-left: 10px;
+    color: #18327a;
+  }
+  footer .storepart p{
+    font-size: 18px;
+    font-weight: bold;
+    
+  }
+  footer  .storepart ul{
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  footer .storepart ul li{
+    padding-bottom: 11px;
+  
+  }
+  footer  .storepart ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    
+  }
+  
+
+
+
+@media screen and (max-width:768px) {
+    header .search button{
+        float:right;
+    }
+    header .search{width:20px}
+    header .search input{display: none;}
+    header .state{
+        display: none;
+    }
+    header .navbar{
+        display: none;
+    }
+    main h1 {
+        padding: 25px 0;
+        font-size: 26px;
+    }
+    main .subpart {
+        display: block;
+        width: 100%;
+    }
+    main .subrow {
+        margin-bottom: 30px;
+    }
+    main .subcontent h3 {
+        font-size: 20px;
+    }
+    main .subpart1:nth-last-child() {
+        display: none;
+    }
+    main .subpart2:nth-last-child(odd) {
+        display: none;
+    }
+    main .subpart3 {
+        display: none;
+    }
+    footer .eval-item{background-color: white;}
+  
+    footer .eval-item  .paint  .item{
+      background-color: #f3f5f7;
+      text-align: left;
+      width: 100%;
+      padding: 0 30px;
+      border-radius: 20px;
+      margin: 20px 15px;
+    }
+    footer .footertext{display: flex; flex-direction: column;}
+    footer  .logopart{width:90%; margin:0; padding: 0 15px;}
+    footer  .logopart p{display: none;}
+    footer  .socialicon{display: none;}
+    footer  .phonepart{width: 90%;padding:0 15px; }
+    footer  .phonepart span{font-size: 20px;}
+    footer  .phonepart .phonedate{padding-left: 30px; margin:10px 0;}
+    footer  .phonepartline{display: none;}
+    footer  .about{justify-content:start; padding:0 15px; width:90%}
+    footer  .infopart{width: 50%; ;}
+    footer  .accountpart{padding:0; width: 50%;}
+    footer  .storepart{padding:0;width:50%}
+}
